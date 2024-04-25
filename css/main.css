@@ -1,0 +1,23 @@
+.bg-prime {
+    background-color: #0396FF !important;
+}
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* For iOS */
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
